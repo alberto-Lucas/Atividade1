@@ -10,7 +10,7 @@ namespace Atividade1
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new PgNewMenu();
         }
 
         protected override void OnStart()
