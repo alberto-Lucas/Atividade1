@@ -6,6 +6,25 @@
     
     <ContentPage.Content>
         <StackLayout>
+
+            <Image Source=
+            "https://img.icons8.com/material/344/mac-os.png"
+            WidthRequest="20"
+                   HeightRequest="20"/>
+
+            <Image Source="pernalonga.png"
+                   WidthRequest="20"
+                   HeightRequest="20"/>
+
+            <ImageButton Source="pernalonga.png"
+                         WidthRequest="20"
+                   HeightRequest="20">
+            </ImageButton>
+
+            <Button Text="Teste"
+                    Image="pernalonga.png"
+                    />
+
             <Label Text="Olá, x"
                    FontSize="36"
                    x:Name="lblLogin"/>
